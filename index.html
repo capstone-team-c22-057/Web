@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>C22-057</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <app-bar></app-bar>
+  </header>
+  <main>
+    <div class="main-detection" id="main-detection">
+        <div class="detection-type" id="detection-type">
+            <h1>Pilih Jenis Deteksi:</h1>
+            <div class="detection-type-selection" id="detection-type-selection">
+                <div class="detection-type-selection-child" id="fruit-freshness-selection">
+                    <h3>Kesegaran Buah</h3>
+                    <ul id="fruit-freshness-list" align="left">
+                        <li>Apel</li>
+                        <li>Pisang</li>
+                        <li>Pare</li>
+                        <li>Paprika</li>
+                        <li>Jeruk</li>
+                        <li>Tomat</li>
+                    </ul>
+                </div>
+                <div class="detection-type-selection-child" id="plant-health-selection">
+                    <h3>Kesehatan Tanaman</h3>
+                    <ul id="plant-health-list" align="left">
+                        <li>Apel</li>
+                        <li>Bluberi</li>
+                        <li>Ceri</li>
+                        <li>Jagung</li>
+                        <li>Anggur</li>
+                        <li>Jeruk</li>
+                        <li>Persik</li>
+                        <li>Paprika</li>
+                        <li>Kentang</li>
+                        <li>Rasberi</li>
+                        <li>Kedelai</li>
+                        <li>Labu Madu</li>
+                        <li>Stroberi</li>
+                        <li>Tomat</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="detection-input" id="detection-input">
+            <div class="before-choose-display" id="before-choose-display">
+                <h2>Pilih terlebih dahulu jenis deteksi yang diinginkan</h2>
+                <h3>(Pilihan ada di sebelah kiri)</h3>
+            </div>
+            <div class="fruit-freshness-display" id="fruit-freshness-display" hidden>
+                <h2>Deteksi Kesegaran Buah</h2>
+                <div class="input-container" id="fruit-freshness-input-container">
+
+                </div>
+                <div class="button-container" id="fruit-freshness-button-container">
+                    <button class="image-detection" id="fruit-freshness-image-detection" type="submit">Deteksi</button>
+                    <button class="image-delete" id="fruit-freshness-image-delete" type="submit">Hapus</button>
+                </div>
+            </div>
+            <div class="plant-health-display" id="plant-health-display" hidden>
+                <h2>Deteksi Kesehatan Tanaman</h2>
+                <div class="input-container" id="plant-health-input-container">
+
+                </div>
+                <div class="button-container" id="plant-health-button-container">
+                    <button class="image-detection" id="plant-health-image-detection" type="submit">Deteksi</button>
+                    <button class="image-delete" id="plant-health-image-delete" type="submit">Hapus</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="detection-result-container" id="detection-result-container" hidden>
+        <div class="detection-result" id="detection-result">
+            <h1>Hasil Deteksi:</h1>
+            <div class="detection-result-detail" id="detection-result-detail">
+                <div class="image-result" id="image-result">
+    
+                </div>
+                <div class="detection-result-info" id="detection-result-info">
+                    <div class="name-result" id="name-result">
+                        <h2>Buah Segar/Tanaman Sehat(Contoh)</h2>
+                    </div>
+                    <div class="detail-result" id="detail-result">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate debitis accusamus fugit voluptas libero similique minus incidunt molestias perferendis labore! Maiores non ratione omnis quam quidem. Autem ipsa commodi corrupti.</p><br>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate debitis accusamus fugit voluptas libero similique minus incidunt molestias perferendis labore! Maiores non ratione omnis quam quidem. Autem ipsa commodi corrupti.</p><br>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate debitis accusamus fugit voluptas libero similique minus incidunt molestias perferendis labore! Maiores non ratione omnis quam quidem. Autem ipsa commodi corrupti.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </main>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
