@@ -56,9 +56,10 @@
             </div>
             <div class="fruit-freshness-display" id="fruit-freshness-display" hidden>
                 <h2>Deteksi Kesegaran Buah</h2>
-                <div class="input-container" id="fruit-freshness-input-container">
-
+                <div class="image-container" id="fruit-freshness-image">
+                    <img class="detection-image" id="selected-fruit-image" src="" />
                 </div>
+                <input class="input-image-button" id="upload-fruit-image" type="file">
                 <div class="button-container" id="fruit-freshness-button-container">
                     <button class="image-detection" id="fruit-freshness-image-detection" type="submit">Deteksi</button>
                     <button class="image-delete" id="fruit-freshness-image-delete" type="submit">Hapus</button>
@@ -66,9 +67,10 @@
             </div>
             <div class="plant-health-display" id="plant-health-display" hidden>
                 <h2>Deteksi Kesehatan Tanaman</h2>
-                <div class="input-container" id="plant-health-input-container">
-
+                <div class="image-container" id="plant-health-image">
+                    <img class="detection-image" id="selected-plant-image" src="" />
                 </div>
+                <input class="input-image-button" id="upload-plant-image" type="file">
                 <div class="button-container" id="plant-health-button-container">
                     <button class="image-detection" id="plant-health-image-detection" type="submit">Deteksi</button>
                     <button class="image-delete" id="plant-health-image-delete" type="submit">Hapus</button>
@@ -76,18 +78,38 @@
             </div>
         </div>
     </div>
-    <div class="detection-result-container" id="detection-result-container" hidden>
+    <div class="detection-result-container" id="fruit-detection-result" hidden>
         <div class="detection-result" id="detection-result">
             <h1>Hasil Deteksi:</h1>
             <div class="detection-result-detail" id="detection-result-detail">
-                <div class="image-result" id="image-result">
-    
+                <div class="image-container" id="detection-result-image">
+                    <img class="detection-image" id="fruit-image-result" src="" />
                 </div>
                 <div class="detection-result-info" id="detection-result-info">
-                    <div class="name-result" id="name-result">
-                        <h2>Buah Segar/Tanaman Sehat(Contoh)</h2>
+                    <div class="name-result" id="fruit-name-result">
+                        <h2>Buah Segar(Contoh)</h2>
                     </div>
-                    <div class="detail-result" id="detail-result">
+                    <div class="detail-result" id="fruit-detail-result">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate debitis accusamus fugit voluptas libero similique minus incidunt molestias perferendis labore! Maiores non ratione omnis quam quidem. Autem ipsa commodi corrupti.</p><br>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate debitis accusamus fugit voluptas libero similique minus incidunt molestias perferendis labore! Maiores non ratione omnis quam quidem. Autem ipsa commodi corrupti.</p><br>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate debitis accusamus fugit voluptas libero similique minus incidunt molestias perferendis labore! Maiores non ratione omnis quam quidem. Autem ipsa commodi corrupti.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="detection-result-container" id="plant-detection-result" hidden>
+        <div class="detection-result" id="detection-result">
+            <h1>Hasil Deteksi:</h1>
+            <div class="detection-result-detail" id="detection-result-detail">
+                <div class="image-container" id="detection-result-image">
+                    <img class="detection-image" id="plant-image-result" src="" />
+                </div>
+                <div class="detection-result-info" id="detection-result-info">
+                    <div class="name-result" id="plant-name-result">
+                        <h2>Tanaman Sehat(Contoh)</h2>
+                    </div>
+                    <div class="detail-result" id="plant-detail-result">
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate debitis accusamus fugit voluptas libero similique minus incidunt molestias perferendis labore! Maiores non ratione omnis quam quidem. Autem ipsa commodi corrupti.</p><br>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate debitis accusamus fugit voluptas libero similique minus incidunt molestias perferendis labore! Maiores non ratione omnis quam quidem. Autem ipsa commodi corrupti.</p><br>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate debitis accusamus fugit voluptas libero similique minus incidunt molestias perferendis labore! Maiores non ratione omnis quam quidem. Autem ipsa commodi corrupti.</p>
@@ -99,6 +121,8 @@
   </main>
 
   <script src="main.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="input-image.js"></script>
 </body>
 
 </html>
