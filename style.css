@@ -73,13 +73,20 @@ li {
     margin: auto;
 }
 
-.input-container {
+.image-container {
     flex-basis: 100%;
     border: 2px solid black;
     border-radius: 15px;
-    height: 200%;
-    padding: 20px;
-    margin: 20px;
+    height: 350px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.input-image-button {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 100%;
+    margin-left: 15px;
 }
 
 .button-container {
@@ -141,7 +148,7 @@ button {
 
 .image-result {
     display: flex;
-    flex-basis: 40%;
+    flex-basis: 60%;
     border: 2px solid black;
     border-radius: 15px;
     padding: 40px;
@@ -158,4 +165,13 @@ button {
 
 .detail-result {
     margin-top: 10px;
+}
+
+a {
+    display: block;
+}
+
+.detection-image {
+    height: 100%;
+    width: 100%;
 }
