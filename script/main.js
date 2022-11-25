@@ -40,19 +40,27 @@ plantHealthSelection.addEventListener('click', function () {
 
 //Fungsi Deteksi
 fruitFreshnessImageDetection.addEventListener('click', function () {
-    fruitDetectionResult.removeAttribute('hidden');
-    plantDetectionResult.setAttribute('hidden', true);
-
     const fruitImage = selectedFruitImage.getAttribute('src');
-    fruitImageResult.setAttribute('src', fruitImage);
+    if (fruitImage){
+        fruitDetectionResult.removeAttribute('hidden');
+        fruitImageResult.setAttribute('src', fruitImage);
+
+        plantDetectionResult.setAttribute('hidden', true);
+    } else {
+        alert ('Masukkan Gambar Terlebih Dahulu!');
+    }
 });
 
 plantHealthImageDetection.addEventListener('click', function () {
-    plantDetectionResult.removeAttribute('hidden');
-    fruitDetectionResult.setAttribute('hidden', true);
-
     const plantImage = selectedPlantImage.getAttribute('src');
-    plantImageResult.setAttribute('src', plantImage);
+    if (plantImage){
+        plantDetectionResult.removeAttribute('hidden');
+        plantImageResult.setAttribute('src', plantImage);
+
+        fruitDetectionResult.setAttribute('hidden', true);
+    } else {
+        alert ('Masukkan Gambar Terlebih Dahulu!');
+    }
 });
 
 
