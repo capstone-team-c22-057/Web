@@ -1,0 +1,16 @@
+.text-box {
+  font-size: 74px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  margin-top: 100px;
+  top: 250px;
+}
+.para {
+  font-size: 25px;
+  text-align: center;
+  color: black;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 15px;
+}
+
