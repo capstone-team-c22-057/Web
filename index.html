@@ -82,7 +82,9 @@
             </div>
             <input class="input-image-button" id="upload-fruit-image" type="file"/>
             <div class="button-container" id="fruit-freshness-button-container">
-              <button class="image-detection" id="fruit-freshness-image-detection" type="submit">Deteksi</button>
+              <button class="image-detection" id="fruit-freshness-image-detection" type="submit">
+                <a class="nav-link" href="#fruit-detection-result">Deteksi</a>  
+              </button>
               <button class="image-delete" id="fruit-freshness-image-delete" type="submit">Hapus</button>
             </div>
           </div>
@@ -94,41 +96,56 @@
             </div>
             <input class="input-image-button" id="upload-plant-image" type="file" />
             <div class="button-container" id="plant-health-button-container">
-              <button class="image-detection" id="plant-health-image-detection" type="submit">Deteksi</button>
+              <button class="image-detection" id="plant-health-image-detection" type="submit">
+                <a class="nav-link" href="#plant-detection-result">Deteksi</a>
+              </button>
               <button class="image-delete" id="plant-health-image-delete" type="submit">Hapus</button>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="card mb-3 container" id="fruit-detection-result"hidden>
-        <div class="row g-0 ">
-          <div class="col-md-4 " id="detection-result-image">
-            <img src="" class="img-fluid rounded-start detection-image-result" id="fruit-image-result" />
-          </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <h5 class="card-title name-result" id="fruit-name-result">Hasil deteksi Buah</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <!--Hasil Deteksi Buah-->
+
+      <div class="text-detection" id="fruit-detection-result"  hidden>
+        <h1>Hasil Deteksi</h1>
+        <div class="card mb-5 mt-5 container" id="fruit-detection-result">
+          <div class="row g-0 ">
+            <div class="col-md-4 " id="detection-result-image">
+              <img src="" class="img-fluid rounded-start detection-image-result" id="fruit-image-result" />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title name-result" id="fruit-name-result">Hasil deteksi Buah</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
             </div>
           </div>
         </div>
       </div>
+        
+     
+      
 
-     <div class="card mb-3" id="plant-detection-result"  hidden>
-      <div class="row g-0">
-        <div class="col-md-4" id="detection-result-image">
-          <img src="" class="img-fluid rounded-start detection-image-result" id="plant-image-result" />
-        </div>
-        <div class="col-md-8">
-          <div class="card-body">
-            <h5 class="card-title name-result" id="plant-name-result">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-
+      <!--Hasil Deteksi Tanaman-->
+      <div class="text-detection" id="plant-detection-result"  hidden>
+        <h1>Hasil Deteksi</h1>
+        <div class="card mb-5 mt-5 container" id="plant-detection-result">
+        <div class="row g-0">
+          <div class="col-md-4" id="detection-result-image">
+            <img src="" class="img-fluid rounded-start detection-image-result" id="plant-image-result" />
           </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title name-result" id="plant-name-result">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+            </div>
         </div>
       </div>
-    </div>
+     
+      </div>
+      
     <!--Contact-->
     <div class="container mt-5 text-center">
       <form class="row g-3">
@@ -166,6 +183,7 @@
       </footer>
     </div>
   </body>
+
   <script src="script\main.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
   <script src="script\input-image.js"></script>
