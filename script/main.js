@@ -38,6 +38,7 @@ plantHealthSelection.addEventListener('click', function () {
 });
 
 
+
 //Fungsi Deteksi
 fruitFreshnessImageDetection.addEventListener('click', function () {
     const fruitImage = selectedFruitImage.getAttribute('src');
