@@ -1,16 +1,23 @@
 .text-box {
-  font-size: 74px;
+  font-size: 60px;
   text-align: center;
   color: rgb(0, 0, 0);
   margin-top: 100px;
   top: 250px;
 }
 .para {
-  font-size: 25px;
+  font-size: 18px;
   text-align: center;
   color: black;
   margin-left: 10%;
   margin-right: 10%;
-  margin-top: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
-
+.text-dash{
+  font-size: 60px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  margin-top: 100px;
+  top: 250px;
+}
