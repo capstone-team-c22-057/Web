@@ -4,7 +4,7 @@
 }
 
 body {
-  font-family: 'Poppins',"Roboto", "Arial", "sans-serif";
+  font-family: "Poppins", "Roboto", "Arial", "sans-serif";
 }
 .img-dash {
   margin-top: 50px;
@@ -28,7 +28,7 @@ body {
   width: 459px;
   height: 369px;
   box-shadow: 200px;
-  position: relative;
+  
   border-radius: 30px;
 }
 
@@ -49,12 +49,38 @@ body {
 .home h2 {
   font-size: 73px;
   color: #454545;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
-
 .dashboard {
   margin-top: 100px;
   width: 100%;
+}
+nav {
+  display: flex;
+  background-color: white;
+  justify-content: space-around;
+  height: 65px;
+  top: 0;
+  position: fixed;
+  width: 100%;
+  align-items: center;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  width: 10%;
+  justify-content: space-between;
+}
+nav ul li a {
+  color: black;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  color: rgb(235, 226, 226);
+}
+.logo h4 a{
+  color: black;
+  text-decoration: none;
 }
 .text-box {
   color: #1c2b1f;
@@ -75,10 +101,6 @@ ul {
 li {
   margin-left: 15px;
   font-size: 120%;
-}
-
-.nav {
-  height: 70px;
 }
 
 .footer-basic {
@@ -140,4 +162,12 @@ li {
   font-size: 13px;
   color: white;
   margin-bottom: 0;
+}
+@media screen and (max-width: 768px) {
+  nav ul{
+    width:30%;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+  }
 }
