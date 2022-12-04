@@ -44,11 +44,33 @@ li {
   font-size: 120%;
 }
 
-.nav {
-  height: 70px;
-  background-color: #1c2b1f;
+nav {
+  display: flex;
+  background-color: white;
+  justify-content: space-around;
+  height: 65px;
+  top: 0;
+  position: fixed;
+  width: 100%;
+  align-items: center;
 }
-
+nav ul {
+  display: flex;
+  list-style: none;
+  width: 10%;
+  justify-content: space-between;
+}
+nav ul li a {
+  color: black;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  color: rgb(235, 226, 226);
+}
+.logo h4 a{
+  color: black;
+  text-decoration: none;
+}
 .l {
   color: white;
 }
