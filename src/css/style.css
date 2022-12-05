@@ -30,7 +30,7 @@ body {
   padding-right: 220px;
 }
 
-.dashh{
+.dashh {
   margin-left: 130px;
   margin-top: 100px;
 }
@@ -43,7 +43,9 @@ body {
   box-shadow: 200px;
   border-radius: 30px;
 }
-
+.dashboard {
+  margin-top: 10px;
+}
 .home .but > p {
   color: #5b5a5a;
   font-size: 17px;
@@ -145,14 +147,13 @@ nav ul li a:hover {
   transform: scale(0);
 }
 
-
 .text-box {
   color: #1c2b1f;
   margin-top: 40px;
   text-align: left;
   margin-left: 130px;
 }
-.im{
+.im {
   margin-top: 50px;
 }
 .text-box1 {
@@ -251,15 +252,15 @@ nav ul li a:hover {
     color: rgb(0, 0, 0);
     text-decoration: none;
   }
-  .dashh{
+  .dashh {
     display: none;
   }
-  .dashboard{
+  .dashboard {
     display: none;
   }
-  .but{
+  .but {
     margin-top: 20px;
-    margin-left: 25px;
+    margin-left: 27px;
   }
 }
 @media screen and (max-width: 576px) {
@@ -285,16 +286,13 @@ nav ul li a:hover {
     transform: translateY(0);
     opacity: 1;
   }
-  .dashh{
+  .dashh {
     display: none;
   }
-  .dashboard{
+  .dashboard {
     display: none;
   }
-  .but{
+  .but {
     margin-top: 20px;
-  }
-  .service{
-    margin-top: 10px;
   }
 }
