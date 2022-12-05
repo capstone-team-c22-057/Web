@@ -8,24 +8,36 @@ body {
   overflow-x: hidden;
 }
 .img-dash {
-  margin-top: 50px;
   margin-bottom: 50px;
+  margin-right: 110px;
+}
+.img-dash1 {
+  margin-top: 40px;
+  margin-bottom: 50px;
+  margin-left: 100px;
 }
 .home {
   margin-top: 145px;
   width: 100%;
 }
+
 .para {
   font-size: 18px;
   text-align: left;
   color: black;
-  margin-top: 20px;
+  margin-top: 2px;
   margin-bottom: 20px;
-  margin-left: 20px;
+  padding-right: 220px;
+}
+
+.dashh{
+  margin-left: 130px;
+  margin-top: 100px;
 }
 .but {
-  margin: 133px 0px;
+  margin: 133px;
   margin-left: 60px;
+  margin-right: 80px;
   width: 459px;
   height: 369px;
   box-shadow: 200px;
@@ -132,70 +144,22 @@ nav ul li a:hover {
 .menu-toogle input:checked ~ span:nth-child(3) {
   transform: scale(0);
 }
-@media screen and (max-width: 820px) {
-  .menu-toogle {
-    display: flex;
-  }
-  nav ul {
-    position: absolute;
-    padding-left: 190px;
-    top: 0;
-    flex-direction: column;
-    height: 50vh;
-    align-items: right;
-    justify-content: space-evenly;
-    z-index: -1;
-    width: 100%;
-    transform: translateY(100%);
-    background-color: rgb(255, 255, 255);
-    transition: all 1s;
-    opacity: 0;
-  }
-  nav ul.slide {
-    transform: translateY(0%);
-    opacity: 1;
-  }
-  nav ul li a {
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-  }
-}
-@media screen and (max-width: 576px) {
-  .menu-toogle {
-    display: flex;
-  }
-  nav ul {
-    position: absolute;
-    padding-left: 125px;
-    top: 0;
-    flex-direction: column;
-    height: 50vh;
-    align-items: right;
-    justify-content: space-evenly;
-    z-index: -1;
-    width: 100%;
-    transform: translateY(100%);
-    background-color: rgb(255, 255, 255);
-    transition: all 1s;
-    opacity: 0;
-  }
-  nav ul.slide {
-    transform: translateY(0);
-    opacity: 1;
-  }
-}
+
 
 .text-box {
   color: #1c2b1f;
   margin-top: 40px;
   text-align: left;
-  margin-left: 20px;
+  margin-left: 130px;
+}
+.im{
+  margin-top: 50px;
 }
 .text-box1 {
   color: #1c2b1f;
   text-align: left;
   margin-top: 40px;
-  margin-left: 20px;
+  margin-left: 170px;
 }
 .footer-basic {
   padding: 40px;
@@ -259,4 +223,78 @@ nav ul li a:hover {
   font-size: 13px;
   color: white;
   margin-bottom: 0;
+}
+@media screen and (max-width: 820px) {
+  .menu-toogle {
+    display: flex;
+  }
+  nav ul {
+    position: absolute;
+    padding-left: 190px;
+    top: 0;
+    flex-direction: column;
+    height: 50vh;
+    align-items: right;
+    justify-content: space-evenly;
+    z-index: -1;
+    width: 100%;
+    transform: translateY(100%);
+    background-color: rgb(255, 255, 255);
+    transition: all 1s;
+    opacity: 0;
+  }
+  nav ul.slide {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+  nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
+  .dashh{
+    display: none;
+  }
+  .dashboard{
+    display: none;
+  }
+  .but{
+    margin-top: 20px;
+    margin-left: 25px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .menu-toogle {
+    display: flex;
+  }
+  nav ul {
+    position: absolute;
+    padding-left: 125px;
+    top: 0;
+    flex-direction: column;
+    height: 50vh;
+    align-items: right;
+    justify-content: space-evenly;
+    z-index: -1;
+    width: 100%;
+    transform: translateY(100%);
+    background-color: rgb(255, 255, 255);
+    transition: all 1s;
+    opacity: 0;
+  }
+  nav ul.slide {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  .dashh{
+    display: none;
+  }
+  .dashboard{
+    display: none;
+  }
+  .but{
+    margin-top: 20px;
+  }
+  .service{
+    margin-top: 10px;
+  }
 }
