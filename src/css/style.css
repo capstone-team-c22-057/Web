@@ -49,16 +49,17 @@ body {
 .home .but > p {
   color: #5b5a5a;
   font-size: 17px;
-  margin-top: 25px;
+  margin-top: 35px;
   margin-left: 40px;
   margin-right: 40px;
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 45px;
 }
 .home .but > h3 {
   color: #393838;
   font-size: 35px;
   padding-top: 35px;
+  margin-top: 45px;
 }
 .home h2 {
   font-size: 73px;
@@ -96,7 +97,7 @@ nav ul li a {
   margin: auto;
 }
 nav ul li a:hover {
-  color: rgb(235, 226, 226);
+  color: rgb(131, 129, 129);
 }
 .logo h4 a {
   color: black;
@@ -162,6 +163,7 @@ nav ul li a:hover {
   margin-top: 40px;
   margin-left: 170px;
 }
+
 .footer-basic {
   padding: 40px;
   background-color: #54616c;
@@ -197,7 +199,7 @@ nav ul li a:hover {
 
 .footer-basic .social {
   text-align: center;
-  padding-bottom: 25px;
+  padding-bottom: 20px;
 }
 
 .footer-basic .social > a {
@@ -224,6 +226,9 @@ nav ul li a:hover {
   font-size: 13px;
   color: white;
   margin-bottom: 0;
+}
+.service p{
+  text-align: justify;
 }
 @media screen and (max-width: 820px) {
   .menu-toogle {

@@ -63,7 +63,7 @@ nav ul li a {
   margin: auto;
 }
 nav ul li a:hover {
-  color: rgb(235, 226, 226);
+  color: rgb(131, 129, 129);
 }
 .logo h4 a {
   color: black;
@@ -171,7 +171,13 @@ nav ul li a:hover {
 .l {
   color: white;
 }
-
+.profile{
+  text-decoration: none;
+  color: black;
+}
+.profile:hover{
+  color: rgb(43, 123, 96);
+}
 .footer-basic {
   padding: 40px;
   background-color: #54616c;
@@ -207,7 +213,7 @@ nav ul li a:hover {
 
 .footer-basic .social {
   text-align: center;
-  padding-bottom: 25px;
+  padding-bottom: 20px;
 }
 
 .footer-basic .social > a {

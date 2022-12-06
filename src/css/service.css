@@ -38,7 +38,7 @@ nav ul li a {
   margin: auto;
 }
 nav ul li a:hover {
-  color: rgb(235, 226, 226);
+  color: rgb(131, 129, 129);
 }
 .logo h4 a {
   color: black;
@@ -161,21 +161,23 @@ nav ul li a:hover {
   display: flex;
   flex-direction: row;
   flex-basis: 100%;
-  padding: 5px;
-  margin: 5px;
+  margin-left: 50%;
+  margin-right: 50%;
+  margin-top: 20px;
+  
 }
 
 .detection-type-selection-child {
   flex-basis: 100%;
-  border: 2px solid grey;
+  box-shadow: 30px;
   border-radius: 20px;
   padding: 20px;
-  margin: 20px 50px 20px ;
+  margin: 10px 50px 10px ;
   cursor: pointer;
+  
 }
 
 .detection-type-selection-child:hover {
-  border: 2px solid black;
   background-color: whitesmoke;
   cursor: pointer;
 }
@@ -367,7 +369,7 @@ button {
 
 .footer-basic .social {
   text-align: center;
-  padding-bottom: 25px;
+  padding-bottom: 20px;
 }
 
 .footer-basic .social > a {
