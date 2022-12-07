@@ -174,10 +174,14 @@ nav ul li a:hover {
   margin: 10px 50px 10px;
   cursor: pointer;
 }
-
+.detection-type-selection-child a{
+  text-decoration: none;
+  color: black;
+}
 .detection-type-selection-child:hover {
   background-color: whitesmoke;
   cursor: pointer;
+
 }
 .para {
   font-size: 18px;
@@ -204,7 +208,6 @@ nav ul li a:hover {
   margin-top: 0;
   padding: 25px;
   margin: 30px 355px 30px 355px;
-
 }
 
 .before-choose-display {
@@ -226,18 +229,20 @@ nav ul li a:hover {
   margin-bottom: 20px;
   margin-top: 20px;
 }
-.fruit-freshness-display h2{
+.fruit-freshness-display h2 {
   margin-top: 30px;
 }
-.fruit-freshness-display{
+.fruit-freshness-display {
   border-radius: 20px;
-  height: 550px;
+  height: 615px;
+  margin-top: 10px;
 }
-.plant-health-display{
+.plant-health-display {
   border-radius: 20px;
-  height: 550px;
+  height: 615px;
+  margin-top: 10px;
 }
-.plant-health-display h2{
+.plant-health-display h2 {
   margin-top: 30px;
 }
 .button-container {
@@ -250,7 +255,7 @@ nav ul li a:hover {
 
 button {
   border: 0;
-  border-radius: 15 px;
+  border-radius: 20px;
   width: 25%;
   padding: 8px;
   margin: 5px;
@@ -261,7 +266,7 @@ button {
   color: white;
   margin: 2px;
   border-radius: 20px;
-  margin-left: 170px;
+  margin-left: 177px;
 }
 
 .image-detection:hover {
@@ -317,7 +322,7 @@ button {
   flex-direction: column;
   flex-basis: 100%;
   padding: 5px;
-  margin-left: 20px;
+  margin-left: 160px;
 }
 .l {
   color: white;
@@ -328,14 +333,14 @@ button {
 
 .detection-image {
   width: 80%;
-  height: 300px;
+  height: 370px;
   object-fit: cover;
   margin-top: 10px;
   border-radius: 20px;
 }
 .detection-image-result {
-  width: 100%;
-  height: 368px;
+  width: 170%;
+  height: 367px;
   object-fit: cover;
   margin-top: 10px;
   border-radius: 20px;
@@ -355,7 +360,7 @@ button {
   padding: 40px;
   background-color: #54616c;
   color: white;
-  margin-top: auto;
+  margin-top: 0;
 }
 
 .footer-basic ul {
