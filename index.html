@@ -19,7 +19,7 @@
       <nav class="shadow-lg">
         <div class="logo">
           <h4>
-            <a href="index.html">PlantHealth</a>
+            <a href="index.html">FressHeal</a>
           </h4>
         </div>
         <ul >
@@ -27,10 +27,10 @@
               <a href="index.html">Home</a>
           </li>
           <li>
-              <a href="service.html">Service</a>
+              <a href="#service">Service</a>
           </li>
           <li>
-              <a href="about.html">About</a>
+              <a href="#about">About</a>
           </li>
         </ul>
         <div class="menu-toogle">
@@ -40,31 +40,17 @@
           <span></span>
         </div>
       </nav>
+      <img src="src\img\pile-fresh-fruits.jpg"  id="home" class="img-fluid shadow-lg mb-5 dashh" alt="Wild Landscape" />
     </header>
+
+
     <main>
-    <!--Dashboard-->
-    <div class="container home">
-      <div class="row">
-        <div class="col dashh">
-          <img class="shadow-lg imm" style="height: 280px; width: 420px; border-radius: 30px;" src="https://i0.wp.com/f1-styx.imgix.net/article/2018/12/23102301/stroberi-sebagai-tanaman-buah-dalam-pot-tanah-liat-disandarkan-pada-pipa-besi.jpg?fit=1000%2C667&ssl=1">
-          <h2 class="display-3 mt-3">Plant Health Detection</h2>
-        </div>
-        <div class="col div">
-          <div class="shadow-lg bg-light rounded-full but">
-            <h3 class="text-center">PlantHealth</h3>
-            <p>You can detect fruit freshness and plant health by simply uploading a photo of the fruit and leaves you want to identify. Just click the following button.</p>
-            <button type="submit" class="btn text-center" style="font-size: 22px; border-radius: 20px; padding: 3px 48px 6px;background-color: rgb(43, 123, 96); color: white;
-            margin-left: 128px;"><b><a class="nav-link" href="service.html">Let's Start</a></b></button>
-          </div>
-          
-        </div>
-      </div>
-    </div>
-    
-    <!--Dashboard Lagi-->
-    <div class="dashboard mt-1">
+
+    <!--Service Dashboard-->
+    <section></section>
+    <div class="dashboard mt-3">
       <div class="container overflow-hidden text-center">
-        <h2 class="display-3 mb-5" id="produk">Our Service</h2>
+        <h2 class="display-3 mb-5" id="service">Our Service</h2>
         <div class="row im1">
           <div class="col text-box">
             <h2 class="display-3 fh">Fruit Health</h2>
@@ -73,13 +59,13 @@
             </p>
           </div>
           <div class="col">
-            <img class="shadow bg-body rounded img-dash" style="height: 280px; width: 400px;" src="https://www.pertanianku.com/wp-content/uploads/2020/05/Tanaman-Buah-yang-Tumbuh-Subur-pada-Musim-Kemarau.jpg">
+            <img class="shadow bg-body rounded img-dash" style="height: 330px; width: 500px;" src="https://www.pertanianku.com/wp-content/uploads/2020/05/Tanaman-Buah-yang-Tumbuh-Subur-pada-Musim-Kemarau.jpg">
           </div>
         </div>
           
         <div class="row im">
           <div class="col">
-            <img class="shadow bg-body rounded img-dash1" style="height: 280px; width: 400px;" src="https://blue.kumparan.com/image/upload/fl_progressive,fl_lossy,c_fill,q_auto:best,w_640/v1643879246/xsmyd8rf2nhtirzaqcv9.jpg">
+            <img class="shadow bg-body rounded img-dash1" style="height: 330px; width: 500px;" src="https://blue.kumparan.com/image/upload/fl_progressive,fl_lossy,c_fill,q_auto:best,w_640/v1643879246/xsmyd8rf2nhtirzaqcv9.jpg">
           </div>
           <div class="col text-box1">
             <h2 class="display-3">Plant Health</h2>
@@ -92,71 +78,190 @@
     </div>
 
       <!--Service-->
-        <div class="container-fluid pt-5 pb-5 service" style="position: relative;">
-          <div class="container text-center" >
-            <h2 class="display-3 mb-3" id="produk">Plant Disease</h2>
-            <div class="row pt-4 gx-4 gy-4">
-              <div class="col-md-3">
-                <div class="card crop-img">
-                  <img src="https://1.bp.blogspot.com/-k5NdBK8todQ/X_LIsibR9VI/AAAAAAAABww/SiswZkmMVT0U5JVWyzWdxEFjHfTH-qS0gCLcBGAsYHQ/s1440/mildew-banner.jpg" class="card-img-top" width="230" height="230"/>
-                  <div class="card-body">
-                    <h5 class="card-title">Powdery mildew</h5>
-                    <p class="card-text">Powdery stains that leave a dusty white coating on leaves, stems, and flowers are caused by a fungus. This disease is usually experienced by a number of plants such as lilacs, apples, grapes, cucumbers, peas, phlox, daisies, and roses.</p>
-                  </div>
-                </div>
-              </div>
-    
-              <div class="col-md-3">
-                <div class="card crop-img">
-                  <img src="https://bisatani.com/wp-content/uploads/2022/04/embun-bulu-2.jpg" class="card-img-top" width="230" height="230"/>
-                  <div class="card-body">
-                    <h5 class="card-title">Hairy Mushroom</h5>
-                    <p class="card-text">Downy mildew is caused by fungus-like organisms and affects many crops such as grapes, lettuce, broccoli and cauliflower. This fungus often occurs during wet weather by causing the upper parts of the leaves to change color, while the undersides of the fungus develop white and gray tones.</p>
-                  </div>
-                </div>
+      <div class="main-detection text-center" id="main-detection">
+        <div class="detection-type" id="detection-type">
+          <h2 class="display-3 mb-4" id="service">Detection Here</h2>
+          <div class="detection-type-selection mb-3 row" id="detection-type-selection">
+            <button type="button" class="btn btn-light btn-lg p-3 shadow-lg col" id="fruit-freshness-selection">Fruit</button>
+            <button type="button" class="btn btn-light btn-lg p-3 col shadow-lg" id="plant-health-selection">Plant</button>
+          </div>
+        </div>
+      </div>
+
+      <!--Detection Input-->
+      <div class="detection-input mx-auto" id="detection-input">
+        <div class="before-choose-display" id="before-choose-display"></div>
+        <div class="fruit-freshness-display shadow-lg text-center" id="fruit-freshness-display" hidden>
+          <h2>Fruit Freshness Detection</h2>
+          <div class="image-container" id="fruit-freshness-image">
+            <img class="detection-image" id="selected-fruit-image" src="" />
+          </div>
+          <input class="input-image-button" id="upload-fruit-image" type="file" />
+          <div class="button-container" id="fruit-freshness-button-container">
+            <button class="image-detection" id="fruit-freshness-image-detection" type="submit">Submit</button>
+            <button class="image-delete" id="fruit-freshness-image-delete" type="submit">Delete</button>
+          </div>
+        </div>
+
+        <div class="plant-health-display shadow-lg text-center" id="plant-health-display" hidden>
+          <h2>Plant Health Detection</h2>
+          <div class="image-container" id="plant-health-image">
+            <img class="detection-image" id="selected-plant-image" src="" />
+          </div>
+          <input class="input-image-button" id="upload-plant-image" type="file" />
+          <div class="button-container" id="plant-health-button-container">
+            <button class="image-detection" id="plant-health-image-detection" type="submit">Submit</button>
+            <button class="image-delete" id="plant-health-image-delete" type="submit">Delete</button>
+          </div>
+        </div>
+      </div>
+
+      <!--Detection Result-->
+      <div class="detection-result-container" id="fruit-detection-result" hidden>
+        <div class="detection-result shadow-lg" id="detection-result">
+          <h1>Detection Result:</h1>
+          <div class="detection-result-info" id="detection-result-info">
+            <div class="detail-result" id="fruit-detail-result">
+              <div class="text-center mb-2">
+                <img class="detection-image-result" id="fruit-image-result" src="" />
               </div>
 
-              <div class="col-md-3">
-                <div class="card crop-img">
-                  <img src="https://asset.kompas.com/crops/uLU5Z6pvdzIGQQenO02l5B1vego=/102x66:898x598/750x500/data/photo/2021/08/02/610777725ae43.jpg" class="card-img-top" width="230" height="230"/>
-                  <div class="card-body">
-                    <h5 class="card-title">Black Spot</h5>
-                    <p class="card-text">Black spot is a fungal disease that is commonly found on roses, as well as other fruit. While they don't kill the plant outright, these black spots can be debilitating and make them susceptible to other diseases. Black spot will thrive in cool, humid weather.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-3">
-                <div class="card crop-img">
-                  <img src="https://asset.kompas.com/crops/p7ASIchVvRet8p63Ey2v8kpcpQw=/233x67:767x600/750x500/data/photo/2021/05/25/60abe03baa79d.jpg" class="card-img-top" width="230" height="230"/>
-                  <div class="card-body">
-                    <h5 class="card-title">Mosaic Viruses</h5>
-                    <p class="card-text">The mosaic virus usually attacks tomatoes, peppers, potatoes, apples, pears, cherries, and tobacco. Plants that are attacked by this virus, the leaves are yellow mottled which sometimes curl. Some plants show yellowing, stunted growth, deformed fruits.</p>
-                  </div>
-                </div>
-              </div>
+              <h2>Fresh fruit</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate debitis accusamus fugit voluptas libero similique minus incidunt molestias perferendis labore! Maiores non ratione omnis quam quidem. Autem ipsa commodi
+                corrupti.
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate debitis accusamus fugit voluptas libero similique minus incidunt molestias perferendis labore! Maiores non ratione omnis quam quidem. Autem ipsa commodi
+                corrupti.
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate debitis accusamus fugit voluptas libero similique minus incidunt molestias perferendis labore! Maiores non ratione omnis quam quidem. Autem ipsa commodi
+                corrupti.
+              </p>
             </div>
           </div>
         </div>
+      </div>
+
+      <div class="detection-result-container" id="plant-detection-result" hidden>
+        <div class="detection-result shadow-lg" id="detection-result">
+          <h1 class="p-4">Detection Result:</h1>
+          <div class="detection-result-info" id="detection-result-info">
+            <div class="detail-result" id="plant-detail-result">
+              <div class="text-center mb-2">
+                <img class="detection-image-result" id="plant-image-result" src="" />
+              </div>
+
+              <h2>Healthy Plants</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate debitis accusamus fugit voluptas libero similique minus incidunt molestias perferendis labore! Maiores non ratione omnis quam quidem. Autem ipsa commodi
+                corrupti.
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate debitis accusamus fugit voluptas libero similique minus incidunt molestias perferendis labore! Maiores non ratione omnis quam quidem. Autem ipsa commodi
+                corrupti.
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate debitis accusamus fugit voluptas libero similique minus incidunt molestias perferendis labore! Maiores non ratione omnis quam quidem. Autem ipsa commodi
+                corrupti.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     
+     <!--Our Team-->
+     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+
+    <div class="container py-1 ">
+      <div class="row mb-4 ">
+        <div class="col ">
+          <h2 class="display-3 font-weight-light team">Our team</h2> 
+        </div>
+      </div>
+
+    <div class="row text-center">
+      <!-- Team item-->
+      <div class="col-xl-3 col-sm-6 mb-5">
+        <div class="bg-white rounded shadow-sm py-5 px-4"><img src="https://bootdey.com/img/Content/avatar/avatar7.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+          <h5 class="mb-0">M Rama Nopan Ariyadi</h5><span class="small text-uppercase text-muted">Machine Learning Developer - M167X0279</span>
+          <ul class="social mb-0 list-inline mt-3">
+            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-facebook-f"></i></a></li>
+            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-twitter"></i></a></li>
+            <li class="list-inline-item"><a href="https://www.instagram.com/mrama_1011/" class="social-link"><i class="fa fa-instagram"></i></a></li>
+            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- End-->
+
+      <!-- Team item-->
+      <div class="col-xl-3 col-sm-6 mb-5">
+        <div class="bg-white rounded shadow-sm py-5 px-4"><img src="https://bootdey.com/img/Content/avatar/avatar6.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+          <h5 class="mb-0">Dafa Arif Nurkholis</h5><span class="small text-uppercase text-muted">Front-End Developer - M263X0585</span>
+          <ul class="social mb-0 list-inline mt-3">
+            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-facebook-f"></i></a></li>
+            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-twitter"></i></a></li>
+            <li class="list-inline-item"><a href="https://www.instagram.com/dafarifn20/" class="social-link"><i class="fa fa-instagram"></i></a></li>
+            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- End-->
+
+      <!-- Team item-->
+      <div class="col-xl-3 col-sm-6 mb-5">
+        <div class="bg-white rounded shadow-sm py-5 px-4"><img src="https://bootdey.com/img/Content/avatar/avatar8.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+          <h5 class="mb-0">Wahyu Nanda Nicola</h5><span class="small text-uppercase text-muted">Machine Learning Developer - M404X0970</span>
+          <ul class="social mb-0 list-inline mt-3">
+            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-facebook-f"></i></a></li>
+            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-twitter"></i></a></li>
+            <li class="list-inline-item"><a href="https://www.instagram.com/ wahyunicola/" class="social-link"><i class="fa fa-instagram"></i></a></li>
+            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- End-->
+
+      <!-- Team item-->
+      <div class="col-xl-3 col-sm-6 mb-5">
+        <div class="bg-white rounded shadow-sm py-5 px-4"><img src="https://bootdey.com/img/Content/avatar/avatar2.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+          <h5 class="mb-0">Muhammad Zhafran Ghaly</h5><span class="small text-uppercase text-muted">Front-End Developer - M183X0348</span>
+          <ul class="social mb-0 list-inline mt-3">
+            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-facebook-f"></i></a></li>
+            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-twitter"></i></a></li>
+            <li class="list-inline-item"><a href="https://www.instagram.com/zhafran_ghaly/" class="social-link"><i class="fa fa-instagram"></i></a></li>
+            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- End-->
+
+      </div>
+    </div>
+
+
+
+      
     <!--Footer-->
-    <div class="mt-5 shadow-lg footer-basic">
+    <div class="shadow-lg text-center footer-basic">
       <footer>
         <div class="social">
-          <a href="https://www.instagram.com/zhafran_ghaly/" target="_blank"><i class="icon ion-social-instagram"></i> </a>
-          <a href="https://twitter.com/Gharel8" target="_blank"><i class="icon ion-social-twitter"></i></a>
-          <a href="https://www.facebook.com/Ghaly29/" target="_blank"><i class="icon ion-social-facebook"></i></a>
+          <a href="https://www.facebook.com/Ghaly29/" target="_blank"><i class="icon ion-social-github"></i></a>
         </div>
-        <ul class="list-inline">
-          <li class="list-inline-item"><a href="index.html">Home</a></li>
-          <li class="list-inline-item"><a href="service.html">Services</a></li>
-          <li class="list-inline-item"><a href="about.html">About</a></li>
-        </ul>
-        <p class="copyright">C22-057 © 2022</p>
+        <h5>FressHeal</h5>
+        <p class="copyright">Copyright© 2022</p>
       </footer>
     </div>
   </body>
+  <script src="script\js\main.js"></script>
   <script src="script\js\script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+  <script src="script\js\input-image.js"></script>
 </html>
