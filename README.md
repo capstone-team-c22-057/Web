@@ -1,6 +1,6 @@
-# Capstone Project Web FressHeal 2022 C22-057
+# Capstone Project Web FresHeal 2022 C22-057
 
-FressHeal
+FresHeal
 
 
 
