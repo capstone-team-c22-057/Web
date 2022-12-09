@@ -25,7 +25,7 @@
         </div>
         <ul >
           <li>
-              <a href="index.html">Home</a>
+              <a href="#home">Home</a>
           </li>
           <li>
               <a href="#service">Service</a>
@@ -48,144 +48,148 @@
     <main>
 
     <!--Service Dashboard-->
-    <section></section>
-    <div class="dashboard mt-3">
-      <div class="container overflow-hidden text-center">
-        <h2 class="display-3 mb-5" id="service">Our Service</h2>
-        <div class="row im1">
-          <div class="col text-box">
-            <h2 class="display-3 fh">Fruit Health</h2>
-            <p class="para">
-              On this web service we provide fruit freshness detection that can help you easily identify ripe, rotten, or unripe fruit.
-            </p>
-          </div>
-          <div class="col">
-            <img class="shadow bg-body rounded img-dash" style="height: 330px; width: 500px;" src="https://www.pertanianku.com/wp-content/uploads/2020/05/Tanaman-Buah-yang-Tumbuh-Subur-pada-Musim-Kemarau.jpg">
-          </div>
-        </div>
-          
-        <div class="row im">
-          <div class="col">
-            <img class="shadow bg-body rounded img-dash1" style="height: 330px; width: 500px;" src="https://blue.kumparan.com/image/upload/fl_progressive,fl_lossy,c_fill,q_auto:best,w_640/v1643879246/xsmyd8rf2nhtirzaqcv9.jpg">
-          </div>
-          <div class="col text-box1">
-            <h2 class="display-3">Plant Health</h2>
-            <p class="para">
-              In addition to fruit freshness, our website provides services for detecting diseases in plants based on leaves. This makes it very easy for you to easily identify diseases in your plants.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-      <!--Service-->
-      <div class="main-detection text-center" id="main-detection">
-        <div class="detection-type" id="detection-type">
-          <h2 class="display-3 mb-4" id="service">Detection Here</h2>
-          <div class="detection-type-selection mb-3 row" id="detection-type-selection">
-            <button type="button" class="btn btn-light btn-lg p-3 shadow-lg col" id="fruit-freshness-selection">Fruit</button>
-            <button type="button" class="btn btn-light btn-lg p-3 col shadow-lg" id="plant-health-selection">Plant</button>
-          </div>
-        </div>
-      </div>
-
-      <!--Detection Input-->
-      <div class="detection-input mx-auto" id="detection-input">
-        <div class="before-choose-display" id="before-choose-display"></div>
-        <div class="fruit-freshness-display shadow-lg text-center" id="fruit-freshness-display" hidden>
-          <h2>Fruit Freshness Detection</h2>
-          <div class="image-container" id="fruit-freshness-image">
-            <img class="detection-image" id="selected-fruit-image" src="" />
-          </div>
-          <input class="input-image-button" id="upload-fruit-image" type="file" />
-          <div class="button-container" id="fruit-freshness-button-container">
-            <button class="image-detection" id="fruit-freshness-image-detection" type="submit">Submit</button>
-            <button class="image-delete" id="fruit-freshness-image-delete" type="submit">Delete</button>
-          </div>
-        </div>
-
-        <div class="plant-health-display shadow-lg text-center" id="plant-health-display" hidden>
-          <h2>Plant Health Detection</h2>
-          <div class="image-container" id="plant-health-image">
-            <img class="detection-image" id="selected-plant-image" src="" />
-          </div>
-          <input class="input-image-button" id="upload-plant-image" type="file" />
-          <div class="button-container" id="plant-health-button-container">
-            <button class="image-detection" id="plant-health-image-detection" type="submit">Submit</button>
-            <button class="image-delete" id="plant-health-image-delete" type="submit">Delete</button>
-          </div>
-        </div>
-      </div>
-
-      <!--Detection Result-->
-      <div class="detection-result-container" id="fruit-detection-result" hidden>
-        <div class="detection-result shadow-lg" id="detection-result">
-          <h1>Detection Result:</h1>
-          <div class="detection-result-info" id="detection-result-info">
-            <div class="detail-result" id="fruit-detail-result">
-              <div class="text-center mb-2">
-                <img class="detection-image-result" id="fruit-image-result" src="" />
-              </div>
-
-              <h2>Fresh fruit</h2>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate debitis accusamus fugit voluptas libero similique minus incidunt molestias perferendis labore! Maiores non ratione omnis quam quidem. Autem ipsa commodi
-                corrupti.
+   
+      <div class="dashboard mt-3" id="service">
+        <div class="container overflow-hidden text-center">
+          <h2 class="display-3 mb-5" id="">Our Service</h2>
+          <div class="row im1">
+            <div class="col text-box">
+              <h2 class="display-3 fh">Fruit Health</h2>
+              <p class="para">
+                On this web service we provide fruit freshness detection that can help you easily identify ripe, rotten, or unripe fruit.
               </p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate debitis accusamus fugit voluptas libero similique minus incidunt molestias perferendis labore! Maiores non ratione omnis quam quidem. Autem ipsa commodi
-                corrupti.
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate debitis accusamus fugit voluptas libero similique minus incidunt molestias perferendis labore! Maiores non ratione omnis quam quidem. Autem ipsa commodi
-                corrupti.
+            </div>
+            <div class="col">
+              <img class="shadow bg-body rounded img-dash" style="height: 330px; width: 500px;" src="https://www.pertanianku.com/wp-content/uploads/2020/05/Tanaman-Buah-yang-Tumbuh-Subur-pada-Musim-Kemarau.jpg">
+            </div>
+          </div>
+            
+          <div class="row im">
+            <div class="col">
+              <img class="shadow bg-body rounded img-dash1" style="height: 330px; width: 500px;" src="https://blue.kumparan.com/image/upload/fl_progressive,fl_lossy,c_fill,q_auto:best,w_640/v1643879246/xsmyd8rf2nhtirzaqcv9.jpg">
+            </div>
+            <div class="col text-box1">
+              <h2 class="display-3">Plant Health</h2>
+              <p class="para">
+                In addition to fruit freshness, our website provides services for detecting diseases in plants based on leaves. This makes it very easy for you to easily identify diseases in your plants.
               </p>
             </div>
           </div>
         </div>
       </div>
-
-      <div class="detection-result-container" id="plant-detection-result" hidden>
-        <div class="detection-result shadow-lg" id="detection-result">
-          <h1 class="p-4">Detection Result:</h1>
-          <div class="detection-result-info" id="detection-result-info">
-            <div class="detail-result" id="plant-detail-result">
-              <div class="text-center mb-2">
-                <img class="detection-image-result" id="plant-image-result" src="" />
-              </div>
-
-              <h2>Healthy Plants</h2>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate debitis accusamus fugit voluptas libero similique minus incidunt molestias perferendis labore! Maiores non ratione omnis quam quidem. Autem ipsa commodi
-                corrupti.
+  
+        <!--Service-->
+        <div class="main-detection text-center" id="main-detection">
+          <div class="detection-type" id="detection-type">
+            <h2 class="display-3 mb-4" id="service">Detection Here</h2>
+            <div class="detection-type-selection mb-3 row" id="detection-type-selection">
+              <button type="button" class="btn btn-light btn-lg p-3 shadow-lg col" id="fruit-freshness-selection">Fruit</button>
+              <button type="button" class="btn btn-light btn-lg p-3 col shadow-lg" id="plant-health-selection">Plant</button>
+              <p>Fruits and plants available for detection <br>
+                Fruits : Apples, Oranges, Bananas </br>
+                 Crops : Grapes, Apples, Corn
               </p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate debitis accusamus fugit voluptas libero similique minus incidunt molestias perferendis labore! Maiores non ratione omnis quam quidem. Autem ipsa commodi
-                corrupti.
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate debitis accusamus fugit voluptas libero similique minus incidunt molestias perferendis labore! Maiores non ratione omnis quam quidem. Autem ipsa commodi
-                corrupti.
-              </p>
+            </div>
+            
+          </div>
+        </div>
+  
+        <!--Detection Input-->
+        <div class="detection-input mx-auto" id="detection-input">
+          <div class="before-choose-display" id="before-choose-display"></div>
+          <div class="fruit-freshness-display shadow-lg text-center" id="fruit-freshness-display" hidden>
+            <h2>Fruit Freshness Detection</h2>
+            <div class="image-container" id="fruit-freshness-image">
+              <img class="detection-image" id="selected-fruit-image" src="" />
+            </div>
+            <input class="input-image-button" id="upload-fruit-image" type="file" />
+            <div class="button-container" id="fruit-freshness-button-container">
+              <button class="image-detection" id="fruit-freshness-image-detection" type="submit">Submit</button>
+              <button class="image-delete" id="fruit-freshness-image-delete" type="submit">Delete</button>
+            </div>
+          </div>
+  
+          <div class="plant-health-display shadow-lg text-center" id="plant-health-display" hidden>
+            <h2>Plant Health Detection</h2>
+            <div class="image-container" id="plant-health-image">
+              <img class="detection-image" id="selected-plant-image" src="" />
+            </div>
+            <input class="input-image-button" id="upload-plant-image" type="file" />
+            <div class="button-container" id="plant-health-button-container">
+              <button class="image-detection" id="plant-health-image-detection" type="submit">Submit</button>
+              <button class="image-delete" id="plant-health-image-delete" type="submit">Delete</button>
             </div>
           </div>
         </div>
-      </div>
+  
+        <!--Detection Result-->
+        <div class="detection-result-container" id="fruit-detection-result" hidden>
+          <div class="detection-result shadow-lg" id="detection-result">
+            <h1>Detection Result:</h1>
+            <div class="detection-result-info" id="detection-result-info">
+              <div class="detail-result" id="fruit-detail-result">
+                <div class="text-center mb-2">
+                  <img class="detection-image-result" id="fruit-image-result" src="" />
+                </div>
+  
+                <h2>Fresh fruit</h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate debitis accusamus fugit voluptas libero similique minus incidunt molestias perferendis labore! Maiores non ratione omnis quam quidem. Autem ipsa commodi
+                  corrupti.
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate debitis accusamus fugit voluptas libero similique minus incidunt molestias perferendis labore! Maiores non ratione omnis quam quidem. Autem ipsa commodi
+                  corrupti.
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate debitis accusamus fugit voluptas libero similique minus incidunt molestias perferendis labore! Maiores non ratione omnis quam quidem. Autem ipsa commodi
+                  corrupti.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="detection-result-container" id="plant-detection-result" hidden>
+          <div class="detection-result shadow-lg" id="detection-result">
+            <h1 class="p-4">Detection Result:</h1>
+            <div class="detection-result-info" id="detection-result-info">
+              <div class="detail-result" id="plant-detail-result">
+                <div class="text-center mb-2">
+                  <img class="detection-image-result" id="plant-image-result" src="" />
+                </div>
+  
+                <h2>Healthy Plants</h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate debitis accusamus fugit voluptas libero similique minus incidunt molestias perferendis labore! Maiores non ratione omnis quam quidem. Autem ipsa commodi
+                  corrupti.
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate debitis accusamus fugit voluptas libero similique minus incidunt molestias perferendis labore! Maiores non ratione omnis quam quidem. Autem ipsa commodi
+                  corrupti.
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate debitis accusamus fugit voluptas libero similique minus incidunt molestias perferendis labore! Maiores non ratione omnis quam quidem. Autem ipsa commodi
+                  corrupti.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+    
     
      <!--Our Team-->
-     
-
     <div class="container py-1 " id="about">
       <div class="row mb-4 ">
         <div class="col ">
-          <h2 class="display-3 font-weight-light team">Our team</h2> 
+          <h2 class="display-3 font-weight-light team">Our Team</h2> 
         </div>
       </div>
 
     <div class="row text-center">
       <!-- Team item-->
       <div class="col-xl-3 col-sm-6 mb-5">
-        <div class="bg-white rounded shadow-sm py-5 px-4"><img src="https://bootdey.com/img/Content/avatar/avatar7.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+        <div class="bg-white rounded shadow-lg py-5 px-4"><img src="https://bootdey.com/img/Content/avatar/avatar7.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
           <h5 class="mb-0">M Rama Nopan Ariyadi</h5><span class="small text-uppercase text-muted">Machine Learning Developer - M167X0279</span>
           <ul class="social mb-0 list-inline mt-3">
             <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-facebook-f"></i></a></li>
@@ -199,7 +203,7 @@
 
       <!-- Team item-->
       <div class="col-xl-3 col-sm-6 mb-5">
-        <div class="bg-white rounded shadow-sm py-5 px-4"><img src="https://bootdey.com/img/Content/avatar/avatar6.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+        <div class="bg-white rounded shadow-lg py-5 px-4"><img src="https://bootdey.com/img/Content/avatar/avatar6.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
           <h5 class="mb-0">Dafa Arif Nurkholis</h5><span class="small text-uppercase text-muted">Front-End Developer - M263X0585</span>
           <ul class="social mb-0 list-inline mt-3">
             <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-facebook-f"></i></a></li>
@@ -213,7 +217,7 @@
 
       <!-- Team item-->
       <div class="col-xl-3 col-sm-6 mb-5">
-        <div class="bg-white rounded shadow-sm py-5 px-4"><img src="https://bootdey.com/img/Content/avatar/avatar8.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+        <div class="bg-white rounded shadow-lg py-5 px-4"><img src="https://bootdey.com/img/Content/avatar/avatar8.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
           <h5 class="mb-0">Wahyu Nanda Nicola</h5><span class="small text-uppercase text-muted">Machine Learning Developer - M404X0970</span>
           <ul class="social mb-0 list-inline mt-3">
             <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-facebook-f"></i></a></li>
@@ -227,8 +231,8 @@
 
       <!-- Team item-->
       <div class="col-xl-3 col-sm-6 mb-5">
-        <div class="bg-white rounded shadow-sm py-5 px-4"><img src="https://bootdey.com/img/Content/avatar/avatar2.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
-          <h5 class="mb-0">Muhammad Zhafran Ghaly</h5><span class="small text-uppercase text-muted">Front-End Developer - M183X0348</span>
+        <div class="bg-white rounded shadow-lg py-5 px-4"><img src="https://bootdey.com/img/Content/avatar/avatar2.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+          <h5 class="mb-0">M Zhafran Ghaly</h5><span class="small text-uppercase text-muted">Front-End Developer - M183X0348</span>
           <ul class="social mb-0 list-inline mt-3">
             <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-facebook-f"></i></a></li>
             <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-twitter"></i></a></li>
@@ -249,7 +253,7 @@
     <div class="shadow-lg text-center footer-basic">
       <footer>
         <div class="social">
-          <a href="https://www.facebook.com/Ghaly29/" target="_blank"><i class="icon ion-social-github"></i></a>
+          <a href="https://github.com/capstone-team-c22-057" target="_blank"><i class="icon ion-social-github"></i></a>
         </div>
         <h5>FressHeal</h5>
         <p class="copyright">Copyright© 2022</p>

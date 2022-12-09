@@ -160,9 +160,6 @@ nav ul li a:hover {
   margin-top: 40px;
   margin-left: 80px;
 }
-.main-detection {
-  margin-top: 30px;
-}
 .detection-type-selection {
   margin: 5px;
   gap: 50px;
@@ -173,7 +170,7 @@ nav ul li a:hover {
   border-radius: 30px;
   font-size: 30px;
   font-style: bold;
-  background-color: rgb(126, 163, 146);
+  background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
 }
 .detection-type-selection-child:hover {
@@ -182,10 +179,10 @@ nav ul li a:hover {
 }
 
 .detection-input {
-  width: 55%;
+  width: 81%;
   border-radius: 20px;
-  padding: 40px;
-  margin: 40px auto;
+  padding: 10px;
+  margin: 5px auto;
 }
 
 .before-choose-display {
@@ -199,14 +196,14 @@ nav ul li a:hover {
 }
 .fruit-freshness-display {
   border-radius: 20px;
-  height: 520px;
+  height: 620px;
 }
 .fruit-freshness-display h2 {
   padding-top: 25px;
 }
 .plant-health-display {
   border-radius: 20px;
-  height: 520px;
+  height: 620px;
 }
 .plant-health-display h2 {
   padding-top: 25px;
@@ -221,14 +218,14 @@ nav ul li a:hover {
   margin-top: 20px;
   border: 0;
   border-radius: 20px;
-  width: 25%;
-  padding: 8px;
+  width: 20%;
+  padding: 10px;
   margin: 5px;
 }
 
 .image-detection:hover {
-  background-color: rgb(43, 123, 96);
-  color: black;
+  background-color: rgb(143, 211, 188);
+  color: rgb(0, 0, 0);
   font-weight: bold;
 }
 
@@ -241,8 +238,8 @@ nav ul li a:hover {
   margin-top: 20px;
   border: 0;
   border-radius: 20px;
-  width: 25%;
-  padding: 8px;
+  width: 20%;
+  padding: 10px;
   margin: 5px;
 }
 
@@ -274,7 +271,7 @@ nav ul li a:hover {
 }
 .image-result {
   display: flex;
-  flex-basis: 60%;
+  flex-basis: 65%;
   border: 2px solid black;
   border-radius: 20px;
   padding: 40px;
@@ -294,16 +291,15 @@ nav ul li a:hover {
 .detail-result {
   margin-top: 10px;
 }
-
+.image-container img {
+  width: 350px;
+  height: 400px;
+}
 .detection-image {
-  height: 300px;
-  height: 300px;
   border-radius: 20px;
 }
 .detection-image-result {
   height: 300px;
-  height: 300px;
-
   margin-top: 10px;
   border-radius: 20px;
 }
@@ -393,7 +389,7 @@ nav ul li a:hover {
   }
   nav ul {
     position: absolute;
-    padding-left: 190px;
+    padding-left: 205px;
     top: 0;
     flex-direction: column;
     height: 50vh;
@@ -419,19 +415,19 @@ nav ul li a:hover {
     display: none;
   }
   .detail-result img {
-    width: 370px;
+    width: 310px;
     height: 300px;
     border-radius: 20px;
   }
   .image-container img {
-    width: 370px;
+    width: 310px;
     height: 300px;
     border-radius: 20px;
   }
   .detection-type-selection {
     margin: 0px;
     gap: 25px;
-    padding: 0 70px;
+    padding: 5px 170px;
   }
   .detection-result {
     display: flex;
@@ -448,13 +444,24 @@ nav ul li a:hover {
     padding: 40px;
     margin: 40px auto;
   }
+  .fruit-freshness-display {
+    border-radius: 20px;
+    height: 530px;
+  }
+  .plant-health-display {
+    border-radius: 20px;
+    height: 530px;
+  }
   .img-card {
     height: 200px;
     width: 200x;
   }
+  .team {
+    margin-left: 245px;
+  }
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 625px) {
   .menu-toogle {
     display: flex;
   }
@@ -468,13 +475,223 @@ nav ul li a:hover {
     justify-content: space-evenly;
     z-index: -1;
     width: 100%;
-    transform: translateY(100%);
+    transform: translateX(100%);
     background-color: rgb(255, 255, 255);
     transition: all 1s;
     opacity: 0;
   }
   nav ul.slide {
-    transform: translateY(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
+  .dashh {
+    display: none;
+  }
+  .dashboard {
+    display: none;
+  }
+  .but {
+    margin-top: 20px;
+  }
+  .detail-result img {
+    width: 260px;
+    height: 250px;
+    margin-top: 10px;
+    border-radius: 20px;
+  }
+  .image-container img {
+    width: 260px;
+    height: 250px;
+    margin-top: 5px;
+  }
+  .input-image-button {
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-top: 5px;
+  }
+  .fruit-freshness-display {
+    border-radius: 20px;
+    height: 460px;
+  }
+  .plant-health-display {
+    border-radius: 20px;
+    height: 460px;
+  }
+  .detection-type-selection {
+    margin: 0px;
+    gap: 25px;
+    padding: 1px 60px;
+    font-size: 20px;
+  }
+  .detection-type-selection button {
+    font-size: 25px;
+    padding: 11px;
+  }
+  .detection-type {
+    padding-top: 90px;
+  }
+  .team {
+    margin-left: 157px;
+  }
+  .input-image-button {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-left: 60px;
+  }
+  .image-detection {
+    background-color: rgb(43, 123, 96);
+    color: white;
+    border-radius: 20px;
+    margin-left: 50px;
+    margin-right: 20px;
+    margin-top: 20px;
+    border: 0;
+    border-radius: 20px;
+    width: 25%;
+    padding: 8px;
+    margin: 5px;
+    font-size: 15px;
+  }
+  .image-delete {
+    background-color: darkred;
+    color: white;
+    border-radius: 20px;
+    margin-left: 50px;
+    margin-right: 20px;
+    margin-top: 20px;
+    border: 0;
+    border-radius: 20px;
+    width: 25%;
+    padding: 8px;
+    margin: 5px;
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 412px) {
+  .menu-toogle {
+    display: flex;
+  }
+  nav ul {
+    position: absolute;
+    padding-left: 115px;
+    top: 0;
+    flex-direction: column;
+    height: 50vh;
+    align-items: right;
+    justify-content: space-evenly;
+    z-index: -1;
+    width: 100%;
+    transform: translateX(100%);
+    background-color: rgb(255, 255, 255);
+    transition: all 1s;
+    opacity: 0;
+  }
+  nav ul.slide {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  .dashh {
+    display: none;
+  }
+  .dashboard {
+    display: none;
+  }
+  .but {
+    margin-top: 20px;
+  }
+  .detail-result img {
+    width: 150px;
+    height: 150px;
+    margin-top: 10px;
+    border-radius: 20px;
+  }
+  .image-container img {
+    width: 150px;
+    height: 150px;
+  }
+  .input-image-button {
+    margin-top: 10px;
+    padding-left: 10px;
+  }
+  .fruit-freshness-display {
+    border-radius: 20px;
+    height: 330px;
+    font-size: 10px;
+  }
+  .plant-health-display {
+    border-radius: 20px;
+    height: 330px;
+  }
+  .fruit-freshness-display h2 {
+    font-size: 22px;
+  }
+  .plant-health-display h2 {
+    font-size: 22px;
+  }
+  .detection-type-selection {
+    margin: 0px;
+    gap: 25px;
+    padding: 5px 55px;
+  }
+  .team {
+    margin-left: 112px;
+  }
+  .image-detection {
+    background-color: rgb(43, 123, 96);
+    color: white;
+    border-radius: 20px;
+    margin-left: 50px;
+    margin-right: 20px;
+    margin-top: 20px;
+    border: 0;
+    border-radius: 20px;
+    width: 25%;
+    padding: 8px;
+    margin: 5px;
+    font-size: 12px;
+  }
+  .image-delete {
+    background-color: darkred;
+    color: white;
+    border-radius: 20px;
+    margin-left: 50px;
+    margin-right: 20px;
+    margin-top: 20px;
+    border: 0;
+    border-radius: 20px;
+    width: 25%;
+    padding: 8px;
+    margin: 5px;
+    font-size: 12px;
+  }
+  .input-image-button {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-left: 75px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .menu-toogle {
+    display: flex;
+  }
+  nav ul {
+    position: absolute;
+    padding-left: 115px;
+    top: 0;
+    flex-direction: column;
+    height: 50vh;
+    align-items: right;
+    justify-content: space-evenly;
+    z-index: -1;
+    width: 100%;
+    transform: translateX(100%);
+    background-color: rgb(255, 255, 255);
+    transition: all 1s;
+    opacity: 0;
+  }
+  nav ul.slide {
+    transform: translateX(0);
     opacity: 1;
   }
   .dashh {
@@ -502,9 +719,55 @@ nav ul li a:hover {
   }
   .fruit-freshness-display {
     border-radius: 20px;
-    height: 120px;
+    height: 360px;
+  }
+  .plant-health-display {
+    border-radius: 20px;
+    height: 360px;
+  }
+  .detection-type-selection {
+    margin: 0px;
+    gap: 25px;
+    padding: 5px 70px;
   }
   .detection-type-selection button {
-    margin: 20px 550px;
+    padding: 0px;
+    font-size: 20px;
+  }
+  .team {
+    margin-left: 15px;
+  }
+  .image-detection {
+    background-color: rgb(43, 123, 96);
+    color: white;
+    border-radius: 20px;
+    margin-left: 50px;
+    margin-right: 20px;
+    margin-top: 20px;
+    border: 0;
+    border-radius: 20px;
+    width: 25%;
+    padding: 8px;
+    margin: 5px;
+    font-size: 13px;
+  }
+  .image-delete {
+    background-color: darkred;
+    color: white;
+    border-radius: 20px;
+    margin-left: 50px;
+    margin-right: 20px;
+    margin-top: 20px;
+    border: 0;
+    border-radius: 20px;
+    width: 25%;
+    padding: 8px;
+    margin: 5px;
+    font-size: 13px;
+  }
+  .input-image-button {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-left: 30px;
   }
 }
