@@ -224,7 +224,7 @@ nav ul li a:hover {
   width: 20%;
   padding: 12px;
   margin: 5px;
-  font-size: 21px;
+  font-size: 20px;
 }
 
 .image-detection:hover {
@@ -452,6 +452,34 @@ nav ul li a:hover {
     padding: 40px;
     margin: 40px auto;
   }
+  .image-delete {
+    background-color: darkred;
+    color: white;
+    border-radius: 20px;
+    margin-left: 50px;
+    margin-right: 20px;
+    margin-top: 20px;
+    border: 0;
+    border-radius: 20px;
+    width: 20%;
+    padding: 11px;
+    margin: 5px;
+    font-size: 20px;
+  }
+  .image-detection {
+    background-color: rgb(43, 123, 96);
+    color: white;
+    border-radius: 20px;
+    margin-left: 50px;
+    margin-right: 20px;
+    margin-top: 20px;
+    border: 0;
+    border-radius: 20px;
+    width: 20%;
+    padding: 11px;
+    margin: 5px;
+    font-size: 20px;
+  }
   .fruit-freshness-display {
     border-radius: 20px;
     height: 545px;
@@ -516,7 +544,6 @@ nav ul li a:hover {
   }
   .detection-result {
     display: flex;
-    flex-direction: col;
     flex-basis: 100%;
     width: 87%;
     border-radius: 20px;
@@ -543,34 +570,6 @@ nav ul li a:hover {
   }
   .team {
     margin-left: 245px;
-  }
-}
-@media screen and (max-width: 835px) {
-  .menu-toogle {
-    display: flex;
-  }
-  nav ul {
-    position: absolute;
-    padding-left: 185px;
-    top: 0;
-    flex-direction: column;
-    height: 50vh;
-    align-items: right;
-    justify-content: space-evenly;
-    z-index: -1;
-    width: 100%;
-    transform: translateX(100%);
-    background-color: rgb(255, 255, 255);
-    transition: all 1s;
-    opacity: 0;
-  }
-  nav ul.slide {
-    transform: translateX(0%);
-    opacity: 1;
-  }
-  nav ul li a {
-    color: rgb(0, 0, 0);
-    text-decoration: none;
   }
 }
 @media screen and (max-width: 665px) {
@@ -623,11 +622,17 @@ nav ul li a:hover {
   }
   .fruit-freshness-display {
     border-radius: 20px;
-    height: 460px;
+    height: 470px;
   }
   .plant-health-display {
     border-radius: 20px;
-    height: 460px;
+    height: 470px;
+  }
+  .fruit-freshness-display h2 {
+    font-size: 36px;
+  }
+  .plant-health-display h2 {
+    font-size: 36px;
   }
   .detection-type-selection {
     margin: 0px;
@@ -679,7 +684,7 @@ nav ul li a:hover {
     font-size: 15px;
   }
 }
-@media screen and (max-width: 412px) {
+@media screen and (max-width: 452px) {
   .menu-toogle {
     display: flex;
   }
@@ -742,7 +747,7 @@ nav ul li a:hover {
     padding: 5px 55px;
   }
   .detection-type-selection p {
-    font-size: 15px;
+    font-size: 14px;
   }
   .team {
     margin-left: 112px;
