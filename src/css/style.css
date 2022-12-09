@@ -163,11 +163,11 @@ nav ul li a:hover {
 .detection-type-selection {
   margin: 5px;
   gap: 50px;
-  padding: 10px 450px;
+  padding: 10px 470px;
 }
 .detection-type-selection button {
   border-radius: 20px;
-  font-size: 35px;
+  font-size: 30px;
   font-style: bold;
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
