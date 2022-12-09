@@ -29,7 +29,7 @@ body {
 
 .dashh {
   width: 100%;
-  max-height: 900px;
+  max-height: 500px;
   object-fit: cover;
   margin: 0;
 }
@@ -71,7 +71,7 @@ nav {
   display: flex;
   background-color: #ffffff;
   justify-content: space-around;
-  height: 70px;
+  height: 60px;
   top: 0;
   position: fixed;
   width: 100%;
@@ -163,18 +163,16 @@ nav ul li a:hover {
 .detection-type-selection {
   margin: 5px;
   gap: 50px;
-  padding: 10px 600px;
-  font-size: 25px;
+  padding: 10px 450px;
 }
 .detection-type-selection button {
   border-radius: 20px;
-  font-size: 30px;
+  font-size: 35px;
   font-style: bold;
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   border: 0.5px rgb(127, 129, 128);
   border-style: double;
-  font-size: 35px;
 }
 .detection-type-selection-child:hover {
   cursor: pointer;
@@ -199,7 +197,7 @@ nav ul li a:hover {
 }
 .fruit-freshness-display {
   border-radius: 20px;
-  height: 650px;
+  height: 645px;
 }
 .fruit-freshness-display h2 {
   padding-top: 25px;
@@ -207,10 +205,11 @@ nav ul li a:hover {
 }
 .plant-health-display {
   border-radius: 20px;
-  height: 650px;
+  height: 645px;
 }
 .plant-health-display h2 {
   padding-top: 25px;
+  font-size: 45px;
 }
 
 .image-detection {
