@@ -69,9 +69,9 @@ body {
 }
 nav {
   display: flex;
-  background-color: white;
+  background-color: #ffffff;
   justify-content: space-around;
-  height: 65px;
+  height: 70px;
   top: 0;
   position: fixed;
   width: 100%;
@@ -85,11 +85,11 @@ nav ul {
   width: 20%;
   justify-content: space-between;
   margin-bottom: 7px;
-  font-size: 120%;
+  font-size: 23px;
 }
 
 nav ul li a {
-  color: black;
+  color: rgb(0, 0, 0);
   text-decoration: none;
   margin: auto;
 }
@@ -163,19 +163,22 @@ nav ul li a:hover {
 .detection-type-selection {
   margin: 5px;
   gap: 50px;
-  padding: 10px 580px;
-  font-size: 20px;
+  padding: 10px 600px;
+  font-size: 25px;
 }
 .detection-type-selection button {
-  border-radius: 30px;
+  border-radius: 20px;
   font-size: 30px;
   font-style: bold;
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
+  border: 0.5px rgb(127, 129, 128);
+  border-style: double;
+  font-size: 35px;
 }
 .detection-type-selection-child:hover {
   cursor: pointer;
-  color: #54616c;
+  color: #ffffff;
 }
 
 .detection-input {
@@ -196,14 +199,15 @@ nav ul li a:hover {
 }
 .fruit-freshness-display {
   border-radius: 20px;
-  height: 620px;
+  height: 650px;
 }
 .fruit-freshness-display h2 {
   padding-top: 25px;
+  font-size: 45px;
 }
 .plant-health-display {
   border-radius: 20px;
-  height: 620px;
+  height: 650px;
 }
 .plant-health-display h2 {
   padding-top: 25px;
@@ -219,8 +223,9 @@ nav ul li a:hover {
   border: 0;
   border-radius: 20px;
   width: 20%;
-  padding: 10px;
+  padding: 13px;
   margin: 5px;
+  font-size: 23px;
 }
 
 .image-detection:hover {
@@ -239,8 +244,9 @@ nav ul li a:hover {
   border: 0;
   border-radius: 20px;
   width: 20%;
-  padding: 10px;
+  padding: 13px;
   margin: 5px;
+  font-size: 23px;
 }
 
 .image-delete:hover {
@@ -257,6 +263,8 @@ nav ul li a:hover {
   border-radius: 20px;
   padding: 40px;
   margin: 40px auto;
+  justify-content: center;
+  align-items: center;
 }
 
 .detection-result-detail {
@@ -291,12 +299,11 @@ nav ul li a:hover {
 .detail-result {
   margin-top: 10px;
 }
-.image-container img {
-  width: 350px;
-  height: 400px;
-}
+
 .detection-image {
   border-radius: 20px;
+  width: 420px;
+  height: 400px;
 }
 .detection-image-result {
   height: 300px;
@@ -342,7 +349,7 @@ nav ul li a:hover {
 
 .footer-basic {
   padding: 20px;
-  background-color: #3e3e3e;
+  background-color: #3a3a3a;
   color: rgb(255, 255, 255);
   margin-top: auto;
 }
@@ -385,6 +392,338 @@ nav ul li a:hover {
 }
 
 @media screen and (max-width: 1150px) {
+@media screen and (max-width: 1670px) {
+  .menu-toogle {
+    display: flex;
+  }
+  nav ul {
+    position: absolute;
+    padding-left: 365px;
+    top: 0;
+    flex-direction: column;
+    height: 50vh;
+    align-items: right;
+    justify-content: space-evenly;
+    z-index: -1;
+    width: 100%;
+    transform: translateX(100%);
+    background-color: rgb(255, 255, 255);
+    transition: all 1s;
+    opacity: 0;
+  }
+  nav ul.slide {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+  nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
+
+  .dashboard {
+    display: none;
+  }
+  .detail-result img {
+    width: 310px;
+    height: 300px;
+    border-radius: 20px;
+  }
+  .image-container img {
+    width: 310px;
+    height: 300px;
+    border-radius: 20px;
+  }
+  .detection-type-selection {
+    margin: 0px;
+    gap: 25px;
+    padding: 5px 170px;
+  }
+  .detection-result {
+    display: flex;
+    flex-direction: col;
+    flex-basis: 100%;
+    width: 87%;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  .detection-input {
+    width: 95%;
+    border-radius: 20px;
+    padding: 40px;
+    margin: 40px auto;
+  }
+  .fruit-freshness-display {
+    border-radius: 20px;
+    height: 530px;
+  }
+  .plant-health-display {
+    border-radius: 20px;
+    height: 530px;
+  }
+  .img-card {
+    height: 200px;
+    width: 200x;
+  }
+  .team {
+    margin-left: 499px;
+  }
+  .detection-type-selection {
+    margin: 0px;
+    gap: 25px;
+    padding: 3px 340px;
+    font-size: 20px;
+  }
+  .detection-type-selection button {
+    font-size: 25px;
+    padding: 11px;
+  }
+}
+
+@media screen and (max-width: 1450px) {
+  .menu-toogle {
+    display: flex;
+  }
+  nav ul {
+    position: absolute;
+    padding-left: 325px;
+    top: 0;
+    flex-direction: column;
+    height: 50vh;
+    align-items: right;
+    justify-content: space-evenly;
+    z-index: -1;
+    width: 100%;
+    transform: translateX(100%);
+    background-color: rgb(255, 255, 255);
+    transition: all 1s;
+    opacity: 0;
+  }
+  nav ul.slide {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+  nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
+
+  .dashboard {
+    display: none;
+  }
+  .detail-result img {
+    width: 310px;
+    height: 300px;
+    border-radius: 20px;
+  }
+  .image-container img {
+    width: 310px;
+    height: 300px;
+    border-radius: 20px;
+  }
+  .detection-type-selection {
+    margin: 0px;
+    gap: 25px;
+    padding: 5px 170px;
+  }
+  .detection-result {
+    display: flex;
+    flex-direction: col;
+    flex-basis: 100%;
+    width: 87%;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  .detection-input {
+    width: 95%;
+    border-radius: 20px;
+    padding: 40px;
+    margin: 40px auto;
+  }
+  .fruit-freshness-display {
+    border-radius: 20px;
+    height: 530px;
+  }
+  .plant-health-display {
+    border-radius: 20px;
+    height: 530px;
+  }
+  .img-card {
+    height: 200px;
+    width: 200x;
+  }
+  .team {
+    margin-left: 499px;
+  }
+  .detection-type-selection {
+    margin: 0px;
+    gap: 25px;
+    padding: 3px 340px;
+    font-size: 20px;
+  }
+  .detection-type-selection button {
+    font-size: 25px;
+    padding: 11px;
+  }
+}
+
+@media screen and (max-width: 1339px) {
+  .menu-toogle {
+    display: flex;
+  }
+  nav ul {
+    position: absolute;
+    padding-left: 290px;
+    top: 0;
+    flex-direction: column;
+    height: 50vh;
+    align-items: right;
+    justify-content: space-evenly;
+    z-index: -1;
+    width: 100%;
+    transform: translateX(100%);
+    background-color: rgb(255, 255, 255);
+    transition: all 1s;
+    opacity: 0;
+  }
+  nav ul.slide {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+  nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
+
+  .dashboard {
+    display: none;
+  }
+  .detail-result img {
+    width: 310px;
+    height: 300px;
+    border-radius: 20px;
+  }
+  .image-container img {
+    width: 310px;
+    height: 300px;
+    border-radius: 20px;
+  }
+  .detection-type-selection {
+    margin: 0px;
+    gap: 25px;
+    padding: 5px 170px;
+  }
+  .detection-result {
+    display: flex;
+    flex-direction: col;
+    flex-basis: 100%;
+    width: 87%;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  .detection-input {
+    width: 95%;
+    border-radius: 20px;
+    padding: 40px;
+    margin: 40px auto;
+  }
+  .fruit-freshness-display {
+    border-radius: 20px;
+    height: 530px;
+  }
+  .plant-health-display {
+    border-radius: 20px;
+    height: 530px;
+  }
+  .img-card {
+    height: 200px;
+    width: 200x;
+  }
+  .team {
+    margin-left: 245px;
+  }
+}
+
+@media screen and (max-width: 1165px) {
+  .menu-toogle {
+    display: flex;
+  }
+  nav ul {
+    position: absolute;
+    padding-left: 245px;
+    top: 0;
+    flex-direction: column;
+    height: 50vh;
+    align-items: right;
+    justify-content: space-evenly;
+    z-index: -1;
+    width: 100%;
+    transform: translateX(100%);
+    background-color: rgb(255, 255, 255);
+    transition: all 1s;
+    opacity: 0;
+  }
+  nav ul.slide {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+  nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
+
+  .dashboard {
+    display: none;
+  }
+  .detail-result img {
+    width: 310px;
+    height: 300px;
+    border-radius: 20px;
+  }
+  .image-container img {
+    width: 310px;
+    height: 300px;
+    border-radius: 20px;
+  }
+  .detection-type-selection {
+    margin: 0px;
+    gap: 25px;
+    padding: 5px 170px;
+  }
+  .detection-result {
+    display: flex;
+    flex-direction: col;
+    flex-basis: 100%;
+    width: 87%;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  .detection-input {
+    width: 95%;
+    border-radius: 20px;
+    padding: 40px;
+    margin: 40px auto;
+  }
+  .fruit-freshness-display {
+    border-radius: 20px;
+    height: 530px;
+  }
+  .plant-health-display {
+    border-radius: 20px;
+    height: 530px;
+  }
+  .img-card {
+    height: 200px;
+    width: 200x;
+  }
+  .team {
+    margin-left: 245px;
+  }
+}
+@media screen and (max-width: 966px) {
   .menu-toogle {
     display: flex;
   }
@@ -461,8 +800,142 @@ nav ul li a:hover {
     margin-left: 245px;
   }
 }
+@media screen and (max-width: 835px) {
+  .menu-toogle {
+    display: flex;
+  }
+  nav ul {
+    position: absolute;
+    padding-left: 185px;
+    top: 0;
+    flex-direction: column;
+    height: 50vh;
+    align-items: right;
+    justify-content: space-evenly;
+    z-index: -1;
+    width: 100%;
+    transform: translateX(100%);
+    background-color: rgb(255, 255, 255);
+    transition: all 1s;
+    opacity: 0;
+  }
+  nav ul.slide {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+  nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
 
-@media screen and (max-width: 794px) {
+@media screen and (max-width: 625px) {
+  .menu-toogle {
+    display: flex;
+  }
+  nav ul {
+    position: absolute;
+    padding-left: 165px;
+    top: 0;
+    flex-direction: column;
+    height: 50vh;
+    align-items: right;
+    justify-content: space-evenly;
+    z-index: -1;
+    width: 100%;
+    transform: translateX(100%);
+    background-color: rgb(255, 255, 255);
+    transition: all 1s;
+    opacity: 0;
+  }
+  nav ul.slide {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  .dashh {
+    display: none;
+  }
+  .dashboard {
+    display: none;
+  }
+  .but {
+    margin-top: 20px;
+  }
+  .detail-result img {
+    width: 260px;
+    height: 250px;
+    margin-top: 10px;
+    border-radius: 20px;
+  }
+  .image-container img {
+    width: 260px;
+    height: 250px;
+    margin-top: 5px;
+  }
+  .input-image-button {
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-top: 5px;
+  }
+  .fruit-freshness-display {
+    border-radius: 20px;
+    height: 460px;
+  }
+  .plant-health-display {
+    border-radius: 20px;
+    height: 460px;
+  }
+  .detection-type-selection {
+    margin: 0px;
+    gap: 25px;
+    padding: 1px 60px;
+    font-size: 20px;
+  }
+  .detection-type-selection button {
+    font-size: 25px;
+    padding: 11px;
+  }
+  .detection-type {
+    padding-top: 90px;
+  }
+  .team {
+    margin-left: 157px;
+  }
+  .input-image-button {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-left: 60px;
+  }
+  .image-detection {
+    background-color: rgb(43, 123, 96);
+    color: white;
+    border-radius: 20px;
+    margin-left: 50px;
+    margin-right: 20px;
+    margin-top: 20px;
+    border: 0;
+    border-radius: 20px;
+    width: 25%;
+    padding: 8px;
+    margin: 5px;
+    font-size: 15px;
+  }
+  .image-delete {
+    background-color: darkred;
+    color: white;
+    border-radius: 20px;
+    margin-left: 50px;
+    margin-right: 20px;
+    margin-top: 20px;
+    border: 0;
+    border-radius: 20px;
+    width: 25%;
+    padding: 8px;
+    margin: 5px;
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 665px) {
   .menu-toogle {
     display: flex;
   }
@@ -568,7 +1041,6 @@ nav ul li a:hover {
     font-size: 15px;
   }
 }
-
 @media screen and (max-width: 412px) {
   .menu-toogle {
     display: flex;
@@ -611,10 +1083,6 @@ nav ul li a:hover {
     width: 150px;
     height: 150px;
   }
-  .input-image-button {
-    margin-top: 10px;
-    padding-left: 10px;
-  }
   .fruit-freshness-display {
     border-radius: 20px;
     height: 330px;
@@ -625,15 +1093,18 @@ nav ul li a:hover {
     height: 330px;
   }
   .fruit-freshness-display h2 {
-    font-size: 22px;
+    font-size: 20px;
   }
   .plant-health-display h2 {
-    font-size: 22px;
+    font-size: 20px;
   }
   .detection-type-selection {
     margin: 0px;
     gap: 25px;
     padding: 5px 55px;
+  }
+  .detection-type-selection p {
+    font-size: 15px;
   }
   .team {
     margin-left: 112px;
@@ -669,10 +1140,16 @@ nav ul li a:hover {
   .input-image-button {
     margin-top: 20px;
     margin-bottom: 10px;
-    padding-left: 75px;
+    padding-left: 1px;
+  }
+  .detection-input {
+    width: 81%;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 5px auto;
   }
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 393px) {
   .menu-toogle {
     display: flex;
   }
@@ -717,6 +1194,8 @@ nav ul li a:hover {
   .input-image-button {
     margin-top: 10px;
     padding-left: 10px;
+    height: 10px;
+    width: 10px;
   }
   .fruit-freshness-display {
     border-radius: 20px;
@@ -725,6 +1204,12 @@ nav ul li a:hover {
   .plant-health-display {
     border-radius: 20px;
     height: 360px;
+  }
+  .fruit-freshness-display h2 {
+    font-size: 22px;
+  }
+  .plant-health-display h2 {
+    font-size: 22px;
   }
   .detection-type-selection {
     margin: 0px;
