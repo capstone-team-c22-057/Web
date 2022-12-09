@@ -484,7 +484,7 @@ nav ul li a:hover {
   }
   nav ul {
     position: absolute;
-    padding-left: 345px;
+    padding-left: 285px;
     top: 0;
     flex-direction: column;
     height: 50vh;
@@ -572,7 +572,7 @@ nav ul li a:hover {
   }
   nav ul {
     position: absolute;
-    padding-left: 205px;
+    padding-left: 245px;
     top: 0;
     flex-direction: column;
     height: 50vh;
@@ -643,14 +643,90 @@ nav ul li a:hover {
     margin-left: 245px;
   }
 }
+@media screen and (max-width: 856px) {
+  .menu-toogle {
+    display: flex;
+  }
+  nav ul {
+    position: absolute;
+    padding-left: 185px;
+    top: 0;
+    flex-direction: column;
+    height: 50vh;
+    align-items: right;
+    justify-content: space-evenly;
+    z-index: -1;
+    width: 100%;
+    transform: translateX(100%);
+    background-color: rgb(255, 255, 255);
+    transition: all 1s;
+    opacity: 0;
+  }
+  nav ul.slide {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+  nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
 
+  .dashboard {
+    display: none;
+  }
+  .detail-result img {
+    width: 310px;
+    height: 300px;
+    border-radius: 20px;
+  }
+  .image-container img {
+    width: 310px;
+    height: 300px;
+    border-radius: 20px;
+  }
+  .detection-type-selection {
+    margin: 0px;
+    gap: 25px;
+    padding: 5px 170px;
+  }
+  .detection-result {
+    display: flex;
+    flex-direction: col;
+    flex-basis: 100%;
+    width: 87%;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  .detection-input {
+    width: 95%;
+    border-radius: 20px;
+    padding: 40px;
+    margin: 40px auto;
+  }
+  .fruit-freshness-display {
+    border-radius: 20px;
+    height: 530px;
+  }
+  .plant-health-display {
+    border-radius: 20px;
+    height: 530px;
+  }
+  .img-card {
+    height: 200px;
+    width: 200x;
+  }
+  .team {
+    margin-left: 245px;
+  }
+}
 @media screen and (max-width: 794px) {
   .menu-toogle {
     display: flex;
   }
   nav ul {
     position: absolute;
-    padding-left: 125px;
+    padding-left: 165px;
     top: 0;
     flex-direction: column;
     height: 50vh;
