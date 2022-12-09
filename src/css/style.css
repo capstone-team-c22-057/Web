@@ -383,7 +383,8 @@ nav ul li a:hover {
 .service {
   background-color: rgb(176, 194, 186);
 }
-@media screen and (max-width: 990px) {
+
+@media screen and (max-width: 1150px) {
   .menu-toogle {
     display: flex;
   }
@@ -461,7 +462,7 @@ nav ul li a:hover {
   }
 }
 
-@media screen and (max-width: 625px) {
+@media screen and (max-width: 794px) {
   .menu-toogle {
     display: flex;
   }
