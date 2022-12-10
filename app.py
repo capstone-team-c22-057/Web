@@ -3,9 +3,6 @@ import numpy as np
 import io
 from PIL import Image
 
-import tensorflow as tf
-from tensorflow.keras.applications.resnet50 import ResNet50, decode_predictions
-
 from flask import request
 from flask import jsonify
 from flask import Flask
