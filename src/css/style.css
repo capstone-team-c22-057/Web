@@ -622,7 +622,7 @@ nav ul li a:hover {
   }
   .fruit-freshness-display {
     border-radius: 20px;
-    height: 470px;
+    height: 497px;
   }
   .plant-health-display {
     border-radius: 20px;
@@ -734,6 +734,7 @@ nav ul li a:hover {
   .plant-health-display {
     border-radius: 20px;
     height: 330px;
+    font-size: 10px;
   }
   .fruit-freshness-display h2 {
     font-size: 20px;
@@ -781,9 +782,8 @@ nav ul li a:hover {
     font-size: 12px;
   }
   .input-image-button {
-    margin-top: 20px;
-    margin-bottom: 10px;
-    padding-left: 1px;
+    margin-top: 10px;
+    height: 30px;
   }
   .detection-input {
     width: 81%;
