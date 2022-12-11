@@ -690,7 +690,7 @@ nav ul li a:hover {
   }
   nav ul {
     position: absolute;
-    padding-left: 65px;
+    padding-left: 95px;
     top: 0;
     flex-direction: column;
     height: 50vh;
