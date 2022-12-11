@@ -46,9 +46,12 @@ dengan hasil accuracy dan val accuracy pada deteksi buah adalah 96% sedengkan pa
 ```
 git clone https://github.com/capstone-team-c22-057/Web.git
 ```
-2. Create folder static
 
-3. Move this folder and file to folder static:
+2. Download file [fruit_model.h5](https://drive.google.com/file/d/1kdHCzwEiI_rTrbxO74IY05bikF2TqVxn/view?usp=share_link) and [plant_model.h5](https://drive.google.com/file/d/1-5ex690e86hgJR31KCO6CTvo-07O4pJt/view?usp=share_link)
+
+3. Create folder static
+
+4. Move this folder and file to folder static:
 - node_modules
 - script
 - src
@@ -57,12 +60,12 @@ git clone https://github.com/capstone-team-c22-057/Web.git
 - package-lock.json
 - README.md
 
-4. Go to folder Web
+5. Go to folder Web
 ```
 cd (web directory)
 ```
 
-5. Run with Flask Environment
+6. Run with Flask Environment
 ```
 python -m venv venv
 pip install virtualenv
@@ -78,7 +81,7 @@ pip install tensorflow-cpu
 set FLASK_ENV=development
 flask run
 ```
-6. Open in browser: http://127.0.0.1:5000/static/index.html
+7. Open in browser: http://127.0.0.1:5000/static/index.html
 
 Or you can or you can directly visit our website
 #### [**Click here to view Fresheal**](https://fresheal.netlify.app/)
