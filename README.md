@@ -45,7 +45,6 @@ git clone https://github.com/capstone-team-c22-057/Web.git
 2. Create folder static
 
 3. Move this folder and file to folder static:
-```
 - node_modules
 - script
 - src
@@ -53,7 +52,6 @@ git clone https://github.com/capstone-team-c22-057/Web.git
 - package.json
 - package-lock.json
 - README.md
-```
 
 4. Go to folder Web
 ```
