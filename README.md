@@ -33,6 +33,9 @@ Kesegaran buah dan kesehatan tanaman seringkali memiliki permasalahan yang diaki
 contvulitional  neural network __CNN__
 dengan hasil accuracy dan val accuracy pada deteksi buah adalah 96% sedengkan pada deteksi tanaman accuracy 96% dan val accuracy 94%
 
+[model plant Health]()
+[Fruit Freshness]()
+
 ## Dataset
 - [Tanaman](https://www.kaggle.com/datasets/abdallahalidev/plantvillage-dataset)
 - [Buah](https://www.kaggle.com/datasets/raghavrpotdar/fresh-and-stale-images-of-fruits-and-vegetables?select=stale_bitter_gourd)
