@@ -1,5 +1,7 @@
 # FresHeal - Project Capstone Studi Independen Kampus Merdeka X Dicoding team C22-057
 
+[Fruit Freshness and Plant Health]()
+
 Kesegaran buah dan kesehatan tanaman seringkali memiliki permasalahan yang diakibatkan oleh beberapa faktor yang menyebabkan kerusakan kualitas buah dan tanaman. Diantaranya pada kesegaran buah biasanya disebabkan oleh beberapa hal seperti suhu, lamanya penyimpanan dan penyebab lainnya. Sedangkan pada tanaman seringkali terserang penyakit oleh hama, bakteri dan lainnya. Dari permasalahan yang sudah dijabarkan dibuatlah sebuah sistem aplikasi berbasis web yang dapat membantu mengatasi permasalahan pada sektor pertanian. Sistem aplikasi ini dibuat untuk membantu masyarakat agar lebih mudah dalam mendeteksi kesegaran buah dan kesehatan tanaman.  
 
 # Resource 
@@ -29,6 +31,7 @@ Kesegaran buah dan kesehatan tanaman seringkali memiliki permasalahan yang diaki
 
 ## Algoritma
 contvulitional  neural network __CNN__
+dengan hasil accuracy dan val accuracy pada deteksi buah adalah 96% sedengkan pada deteksi tanaman accuracy 96% dan val accuracy 94%
 
 ## Dataset
 - [Tanaman](https://www.kaggle.com/datasets/abdallahalidev/plantvillage-dataset)
