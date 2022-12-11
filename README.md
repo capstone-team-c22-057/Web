@@ -1,6 +1,6 @@
 # FresHeal - Project Capstone Studi Independen Kampus Merdeka X Dicoding team C22-057
 
-[Fruit Freshness and Plant Health]()
+[![FresHeal Cover.jpg](https://i.postimg.cc/1zcVFBD1/fresheal-cover.jpg)](https://postimg.cc/sBx2dpnT)
 
 Kesegaran buah dan kesehatan tanaman seringkali memiliki permasalahan yang diakibatkan oleh beberapa faktor yang menyebabkan kerusakan kualitas buah dan tanaman. Diantaranya pada kesegaran buah biasanya disebabkan oleh beberapa hal seperti suhu, lamanya penyimpanan dan penyebab lainnya. Sedangkan pada tanaman seringkali terserang penyakit oleh hama, bakteri dan lainnya. Dari permasalahan yang sudah dijabarkan dibuatlah sebuah sistem aplikasi berbasis web yang dapat membantu mengatasi permasalahan pada sektor pertanian. Sistem aplikasi ini dibuat untuk membantu masyarakat agar lebih mudah dalam mendeteksi kesegaran buah dan kesehatan tanaman.  
 
