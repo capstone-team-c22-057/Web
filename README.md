@@ -45,6 +45,7 @@ git clone https://github.com/capstone-team-c22-057/Web.git
 2. Create folder static
 
 3. Move this folder and file to folder static:
+```
 - node_modules
 - script
 - src
@@ -52,6 +53,7 @@ git clone https://github.com/capstone-team-c22-057/Web.git
 - package.json
 - package-lock.json
 - README.md
+```
 
 4. Go to folder Web
 ```
@@ -85,22 +87,3 @@ Or you can or you can directly visit our website
 2. M263X0585 - [Dafa Arif Nurkholis](https://www.instagram.com/dafarifn20/) - Front-End Web Developer
 3. M404X0970 - [Wahyu Nanda Nicola](https://www.instagram.com/wahyunicola/) - Machine Learning Developer 
 4. M183X0348 - [Muhammad Zhafran Ghaly](https://www.instagram.com/zhafran_ghaly/) - Front-End Web Developer
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
